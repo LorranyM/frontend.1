@@ -59,6 +59,7 @@
         width: 20%;
         height: 60%;
         border: 3px solid #F2BED1;
+        box-shadow: 0 4px 8px 0 grey;
     }
 
     .img-card{
@@ -72,4 +73,12 @@
         width: 100%;
         height: 30%;
         background-color: #FDCEDF;
+        color:white;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    .texte-card-titulo{
+        padding-top: ;
+        font-family: ;
+        font-size: ;
     }
