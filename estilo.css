@@ -53,13 +53,14 @@
         justify-content: space-evenly;
         align-items: center;
         background-color: #F8E8EE;
+        
     }
     
     .card{
         width: 20%;
         height: 60%;
         border: 3px solid #F2BED1;
-        box-shadow: 0 4px 8px 0 grey;
+        box-shadow: 0 4px 8px rgba(46, 45, 45, 0);
     }
 
     .img-card{
@@ -72,13 +73,68 @@
     .text-card{
         width: 100%;
         height: 30%;
-        background-color: #FDCEDF;
-        color:white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        background-color: #FDCEDF;
     }
-    .texte-card-titulo{
-        padding-top: ;
-        font-family: ;
-        font-size: ;
+
+    .text-card-titulo{
+        font-size: 17px;
+        font-family: 'satisfy', cursive;
+        text-align: center;
+        color: white;
     }
+
+    .text-card-p{
+        color: white ;
+
+    }
+     
+    p:hover{
+         color: ;
+
+    }
+     #secao3{
+
+        width:100% ;
+        height:60vp ;
+        display:flex;
+        justify-content:space-between ;
+        align-items:center ;
+        background-color:#F2BED1 ;
+        
+     }
+     #text-secao3{
+         background-color: #F8E8EE;
+         width: 25%;
+         height: 80%;
+         margin-left:15%;
+     }
+     #img-secao3{
+         background-image:url(pato-png.jpg) ;
+         background-size: contain;
+         background-repeat: no-repeat;
+         width: 40%;
+         height: 80%;
+
+     }
+     #title{
+        margin-top: 10%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+     }
+     hr{
+        border: 3px #FDCEDF;
+        margin-right: 70px;
+        margin-top: 5px;
+     }
+     #p-secao3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 5%;
+        margin-right: 50%;
+     }
+     footer{
+        width: 100%;
+        background-color:#FDCEDF ;
+        height: 20vh;
+     }
